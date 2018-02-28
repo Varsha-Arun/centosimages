@@ -8,20 +8,20 @@ runtime:
   nodePool: custom__x86_64__CentOS_7
 
 services:
-  - cassandra 
-  #- couchdb 
-  - elasticsearch 
-  - memcached 
-  - mongodb 
+#  - cassandra 
+  - couchdb 
+#  - elasticsearch 
+#  - memcached 
+#  - mongodb 
   #- mysql 
-  - neo4j 
+#  - neo4j 
   #- postgres 
-  - rabbitmq 
-  - redis 
+#  - rabbitmq 
+#  - redis 
  # - rethinkdb 
-  - riak 
-  - selenium 
-  - sqlite 
+#  - riak 
+#  - selenium 
+#  - sqlite 
   
 build:
   pre_ci_boot:
