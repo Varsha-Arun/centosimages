@@ -9,7 +9,7 @@ runtime:
 
 services:
   - cassandra 
-  - couchdb 
+  #- couchdb 
   - elasticsearch 
   - memcached 
   - mongodb 
