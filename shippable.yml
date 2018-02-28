@@ -18,7 +18,7 @@ build:
     pull: true
     
   ci:
-    - java -verison
+    - java --verison
     - docker ps
   #  - docker build -t=test .
     - docker images
