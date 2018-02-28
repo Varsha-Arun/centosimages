@@ -15,7 +15,7 @@ services:
   - mongodb 
   #- mysql 
   - neo4j 
-  - postgres 
+  #- postgres 
   - rabbitmq 
   - redis 
   - rethinkdb 
