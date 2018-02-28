@@ -56,7 +56,7 @@ build:
     - psql --version
     - redis-server -v
     - riak version
-    - rethinkdb -v #|| true
+   # - rethinkdb -v #|| true
     ## couchdb version
     ##- curl http://localhost:5984
     #- $SHIPPABLE_NEO4J_BINARY version #|| true
