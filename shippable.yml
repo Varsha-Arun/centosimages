@@ -1,15 +1,20 @@
-language: python
+language: node_js
 
 # Version number
-python:
-  - 2.7
+node_js:
+  - 4.8.7
+  - 5.12.0
+  - 6.11.5
+  - 7.10.1
+  - 8.9.4
+  - 9.5.0
 
 runtime:
   nodePool: custom__x86_64__CentOS_7
 
 build:
   pre_ci_boot:
-    image_name: drydock/c7
+    image_name: drydock/c7nodall
     image_tag: master
     pull: true
     
