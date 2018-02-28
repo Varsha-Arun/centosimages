@@ -3,6 +3,7 @@ language: python
 # Version number
 python:
   - 2.7
+  - 3.5.4
 
 runtime:
   nodePool: custom__x86_64__CentOS_7
