@@ -5,7 +5,7 @@ python:
   - 2.7
 
 runtime:
-  nodePool: custom__x86_64__CentOS_7
+  nodePool: dynamic__x86_64__CentOS_7__c4_large
 
 build:
   pre_ci_boot:
@@ -45,7 +45,7 @@ jobs:
   - name: simplerunsh1cent
     type: runSh
     runtime:
-      nodePool: custom__x86_64__Ubuntu_16_04
+      nodePool: dynamic__x86_64__CentOS_7__c4_large
     steps:
       - IN: repo
       - TASK:
